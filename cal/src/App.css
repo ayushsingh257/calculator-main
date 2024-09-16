@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  background-color: #d1b7dd;
+  height: 100vh;
+  padding: 50px;
+}
+.calbox{
+  width: 30%;
+  margin:  auto;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.display{
+  grid-column: 1 / span 4;
+  height: 120px;
+  background-color:  #c5d1e8;
+}
+.calbox>div{
+  background-color: #e1d1e9;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ 
+.ac{
+  grid-column: 1 / span 2;
+}
+.last{
+  grid-column: 3 / span 2;  ;
+}
